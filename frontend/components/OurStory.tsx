@@ -7,7 +7,7 @@ const OurStory = () => {
           {/* col image  */}
           <div className="m-6">
             <div className="relative">
-              <div className="w-40 h-20 bg-green-400 rounded-3xl absolute top-[-30] left-[-20px]  border">
+              <div className="w-40 h-20 bg-[#081129] rounded-3xl absolute top-[-30] left-[-20px]  border">
                 <div className="flex items-center pt-5 pl-5 ">
                   <div className=" bg-red">icon</div>
                   <div className="text-white">

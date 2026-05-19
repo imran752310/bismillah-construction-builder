@@ -1,13 +1,4 @@
-// app/components/ContactSection.tsx
 
-// import {
-//   Phone,
-//   Mail,
-//   MapPin,
-//   Clock3,
-//   Send,
-//   BadgeCheck,
-// } from "lucide-react";
 
 export default function ContactSection() {
   return (
