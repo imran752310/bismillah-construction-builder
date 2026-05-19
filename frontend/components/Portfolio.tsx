@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Portfolio = () => {
   return (
     <section className="bg-[#071127]">
-      <div className="w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto p-10">
         <div className="grid grid-cols-2">
           {/* col-1  */}
           <div>
@@ -42,23 +42,23 @@ export const Portfolio = () => {
           </div>
           {/* cols-2-end  */}
         </div>
-        <div>
-          <p>Showing 8 of 12 projects</p>
+        <div className="py-6">
+          <p className="text-white">Showing 8 of 12 projects</p>
         </div>
 
         {/* Cards  */}
 
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="max-w-7xl mx-auto grid  grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
          
      
         {/* card end  */}
-         <div className="w-full max-w-[300px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
+         <div className="w-full max-w-[340px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
             {/* Image Section */}
             <div className="relative h-[220px] w-full overflow-hidden">
               <Image
                 src="/card1.jfif"
                 alt="Project"
-                width={300}
+                width={340}
                 height={300}
                 className="object-cover"
               />
@@ -84,7 +84,7 @@ export const Portfolio = () => {
                 Al-Noor Residences
               </h3>
 
-              <p className="mt-3 text-[14px] leading-7 text-[#94A3B8]">
+              <p className="mt-3 text-[12px] leading-7 text-[#94A3B8]">
                 A prestigious residential complex featuring 48 premium villas
                 with state...
               </p>
@@ -110,9 +110,7 @@ export const Portfolio = () => {
             </div>
           </div>
          {/* Cards  */}
-
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
-          <div className="w-full max-w-[300px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
+          <div className="w-full max-w-[340px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
             {/* Image Section */}
             <div className="relative h-[220px] w-full overflow-hidden">
               <Image
@@ -144,7 +142,7 @@ export const Portfolio = () => {
                 Al-Noor Residences
               </h3>
 
-              <p className="mt-3 text-[14px] leading-7 text-[#94A3B8]">
+              <p className="mt-3 text-[12px] leading-7 text-[#94A3B8]">
                 A prestigious residential complex featuring 48 premium villas
                 with state...
               </p>
@@ -169,13 +167,10 @@ export const Portfolio = () => {
               </div>
             </div>
           </div>
-        </div>
         {/* card end  */}
 
          {/* Cards  */}
-
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
-          <div className="w-full max-w-[300px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
+          <div className="w-full max-w-[340px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
             {/* Image Section */}
             <div className="relative h-[220px] w-full overflow-hidden">
               <Image
@@ -207,7 +202,7 @@ export const Portfolio = () => {
                 Al-Noor Residences
               </h3>
 
-              <p className="mt-3 text-[14px] leading-7 text-[#94A3B8]">
+              <p className="mt-3 text-[12px] leading-7 text-[#94A3B8]">
                 A prestigious residential complex featuring 48 premium villas
                 with state...
               </p>
@@ -232,12 +227,10 @@ export const Portfolio = () => {
               </div>
             </div>
           </div>
-        </div>
         {/* card end  */}
          {/* Cards  */}
 
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
-          <div className="w-full max-w-[300px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
+          <div className="w-full max-w-[340px] overflow-hidden rounded-[24px] border border-[#163055] bg-[#061327]">
             {/* Image Section */}
             <div className="relative h-[220px] w-full overflow-hidden">
               <Image
@@ -269,7 +262,7 @@ export const Portfolio = () => {
                 Al-Noor Residences
               </h3>
 
-              <p className="mt-3 text-[14px] leading-7 text-[#94A3B8]">
+              <p className="mt-3 text-[12px] leading-7 text-[#94A3B8]">
                 A prestigious residential complex featuring 48 premium villas
                 with state...
               </p>
@@ -294,8 +287,12 @@ export const Portfolio = () => {
               </div>
             </div>
           </div>
-        </div>
         {/* card end  */}
+           </div>
+           <div className="max-w-7xl text-center m-6 ">
+             <button className="px-5 py-2 rounded-full border border-[#5B4720] bg-[#111827] text-[#D4A43C] text-sm">
+                View All Projects
+              </button>
            </div>
       </div>
     </section>

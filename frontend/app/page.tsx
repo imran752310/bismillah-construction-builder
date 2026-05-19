@@ -1,3 +1,6 @@
+import ContactSection from "@/components/Contact";
+import Footer from "@/components/Global/footer";
+import OurStory from "@/components/OurStory";
 import { Portfolio } from "@/components/Portfolio";
 import Services from "@/components/Services";
 
@@ -5,6 +8,9 @@ export default function Home() {
   return (
     <div>
       <section className="">
+         {/* Grid Overlay */}
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:58px_58px] opacity-40" />
+
         {/* Background Image */}
         <div className="relative  overflow-hidden bg-[#081126] text-white min-h-screen">
           <div
@@ -13,10 +19,9 @@ export default function Home() {
             backgroundImage: `url('/hero.jfif')`,
           }}
         />
-
+  
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-[#071127]/80" />
-
        
         {/* Navbar */}
         <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-8 py-3">
@@ -141,7 +146,9 @@ export default function Home() {
      
           <Services />
             <Portfolio />
-    
+            <OurStory />
+            <ContactSection />
+           <Footer />
     </div>
   );
 }
