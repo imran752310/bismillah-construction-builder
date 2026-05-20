@@ -27,12 +27,11 @@ const Services = () => {
         </div>
         <div className="p-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-           
             {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -60,11 +59,11 @@ const Services = () => {
               </div>
             </div>
 
-              {/* card 1 */}
+            {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -92,11 +91,11 @@ const Services = () => {
               </div>
             </div>
 
-  {/* card 1 */}
+            {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -124,11 +123,11 @@ const Services = () => {
               </div>
             </div>
 
-  {/* card 1 */}
+            {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -156,11 +155,11 @@ const Services = () => {
               </div>
             </div>
 
-  {/* card 1 */}
+            {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -188,11 +187,11 @@ const Services = () => {
               </div>
             </div>
 
-  {/* card 1 */}
+            {/* card 1 */}
             <div className="bg-[#07122B] border border-[#20293F] rounded-[28px] p-10 min-h-[350px] flex flex-col justify-between">
               <div>
                 <div className="w-[62px] h-[62px] rounded-2xl border border-[#5B4720] bg-[#111827] flex items-center justify-center">
-                 Home
+                  Home
                 </div>
 
                 <h2 className="text-white text-[18px] font-bold mt-3 leading-tight">
@@ -219,8 +218,6 @@ const Services = () => {
                 </span>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>
